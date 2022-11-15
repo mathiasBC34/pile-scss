@@ -1,0 +1,64 @@
+@import "trois";
+
+
+
+.figure_1{
+    @include carre(200px, couleur1, red, absolute, 50px);
+}
+
+
+.figure_2{
+    @include carre(200px, couleur2, blue, absolute, 100px);
+}
+
+
+.figure_3{
+    @include carre(200px, couleur3, green, absolute, 150px);
+}
+
+.figure_4{
+    @include carre(200px, couleur1, red, absolute, 490px);
+}
+
+
+.figure_5{
+    @include carre(200px, couleur2, blue, absolute, 441px);
+}
+
+
+.figure_6{
+    @include carre(200px, couleur3, green, absolute, 393px);
+}
+
+.figure_7{
+    @include carre(200px, couleur1, red, absolute, 50px);
+    left: 450px;
+}
+
+.figure_8{
+    @include carre(200px, couleur2, blue, absolute, 100px);
+    left: 350px;
+}
+
+
+.figure_9{
+    @include carre(200px, couleur3, green, absolute, 150px);
+    left: 250px;
+}
+
+.figure_10{
+    @include carre(200px, couleur1, red, absolute, 50px);
+    top: 450px
+}
+
+
+.figure_11{
+    @include carre(200px, couleur2, blue, absolute, 100px);
+    top: 350px
+}
+
+
+.figure_12{
+    @include carre(200px, couleur3, green, absolute, 150px);
+    top: 250px
+}

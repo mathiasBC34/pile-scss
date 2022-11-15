@@ -1,0 +1,43 @@
+// $couleur1-background: red;
+// $couleur2-background: blue;
+// $couleur3-background: green;
+
+// @mixin carre ($size, $figure1: true, $figure2: false, $figure3: true){
+//     width: $size;
+//     height: $size;
+
+//     @if $figure1  {
+//         background-color: $couleur1-background;
+//     } 
+//     @if  $figure2 {
+//         background-color: $couleur2-background;
+//     }
+//     @if $figure3 {
+//         background-color: $couleur3-background;
+//     }
+// }
+
+
+@mixin carre ($size, $var, $color, $position, $margin){
+    width: $size;
+    height: $size;
+
+    margin: $margin;
+
+    @if $var == couleur1 {
+        background-color: $color;
+        position: $position;
+    }
+    @else if $var == couleur2{
+        background-color: $color;
+        position: $position;
+    }
+    @else if $var == couleur3{
+        background-color: $color;
+        position: $position;    
+    }
+    @else {
+        @error "Unknown direction #{$var}.";
+    }
+    
+}

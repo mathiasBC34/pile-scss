@@ -1,0 +1,103 @@
+.figure_1 {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  background-color: red;
+  position: absolute;
+}
+
+.figure_2 {
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+  background-color: blue;
+  position: absolute;
+}
+
+.figure_3 {
+  width: 200px;
+  height: 200px;
+  margin: 150px;
+  background-color: green;
+  position: absolute;
+}
+
+.figure_4 {
+  width: 200px;
+  height: 200px;
+  margin: 490px;
+  background-color: red;
+  position: absolute;
+}
+
+.figure_5 {
+  width: 200px;
+  height: 200px;
+  margin: 441px;
+  background-color: blue;
+  position: absolute;
+}
+
+.figure_6 {
+  width: 200px;
+  height: 200px;
+  margin: 393px;
+  background-color: green;
+  position: absolute;
+}
+
+.figure_7 {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  background-color: red;
+  position: absolute;
+  left: 450px;
+}
+
+.figure_8 {
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 350px;
+}
+
+.figure_9 {
+  width: 200px;
+  height: 200px;
+  margin: 150px;
+  background-color: green;
+  position: absolute;
+  left: 250px;
+}
+
+.figure_10 {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  background-color: red;
+  position: absolute;
+  top: 450px;
+}
+
+.figure_11 {
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 350px;
+}
+
+.figure_12 {
+  width: 200px;
+  height: 200px;
+  margin: 150px;
+  background-color: green;
+  position: absolute;
+  top: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */
